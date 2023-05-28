@@ -11,7 +11,7 @@ const number = process.argv[4]
 
 console.log(password)
 
-const url = `mongodb+srv://fullstack:${password}@nodeexpressprojects.xfwck2p.mongodb.net/phonebookApp?retryWrites=true&w=majority`
+const url = `mongodb+srv://fullstack:${password}@nodeexpressprojects.xfwck2p.mongodb.net/testPhonebookApp?retryWrites=true&w=majority`
 
 mongoose.set('strictQuery', false)
 mongoose.connect(url)
